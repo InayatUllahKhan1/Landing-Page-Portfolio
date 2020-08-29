@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Portfolio</title>
+    <!--- Font Awesome CSS File -->
+    <!-- <link rel="stylesheet" href="assets/fontawesome-free-5.13.1-web/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    
+    <!--- External CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--- Header -->
+    <header class="header">
+        <div class="data-wrapper__header">
+            <div class="logo">
+                <h3 class="logo-text">Brand</h3>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav" id="main-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#introduction" class="nav__link menu-item active">Intro</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link menu-item">Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link menu-item">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link menu-item">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!--- Introduction -->
+    <section class="introduction scrollspy" id="introduction">
+        <div class="container">
+            <div class="data-wrapper__introduction">
+                <img src="assets/img/profile.png" alt="My Image" class="rounded-img__introduction">
+                <h2 class="title__introduction">Inayat Ullah Shinwari</h2>
+                <div class="title--underline title--underline-light"><i class="fas fa-star"></i></div>
+                <p class="my-skills__introduction">Web Developer - Graphic Artist - User Experience Designer</p>
+            </div>
+        </div>
+    </section>
+
+    <!--- Portfolio -->
+    <section class="portfolio scrollspy" id="portfolio">
+        <div class="container">
+            <div class="data-wrapper__portfolio">
+                <h2 class="title__portfolio text-uppercase">portfolio</h2>
+                <div class="title--underline title--underline-secondary"><i class="fas fa-star"></i></div>
+                <div class="portfolio-items">
+                    <div class="portfolio-item">
+
+                        <img src="assets/img/portfolio/cabin.png" class="img__portfolio">
+                        </a>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/img/portfolio/cake.png" class="img__portfolio">
+                        </a>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/img/portfolio/circus.png" class="img__portfolio">
+                        </a>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/img/portfolio/game.png" class="img__portfolio">
+                        </a>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/img/portfolio/safe.png" class="img__portfolio">
+                        </a>
+                    </div>
+                    <div class="portfolio-item">
+                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/img/portfolio/submarine.png" class="img__portfolio">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--- About Me -->
+    <section class="about scrollspy" id="about">
+        <div class="container">
+            <div class="data-wrapper__about">
+                <h2 class="title__about text-uppercase">About</h2>
+                <div class="title--underline title--underline-light"><i class="fas fa-star"></i></div>
+                <div class="text__about">
+                    <p>
+                        Hi! I am Inayat Ullah Shinwari, a full-stack web developer based in
+                        Nangarhar, Afghanistan. I am passionate full-stack web developer and freelancer
+                        with a lot of experience in this field. I have a lot of happy clients from
+                        different professions.
+                    </p>
+                    <p>
+                        Whether you want to make yourself or your company a good looking
+                        responsive website I can help you with that. I develope a lot of
+                        websites to my respected clients in my career. For me the satisfication
+                        of my clients is more important. Contact me if you want me to develope
+                        your next website.
+                    </p>
+                </div>
+                <button class="btn btn-secondary"><i class="fas fa-download"></i> Download CV Now!</button>
+            </div>
+        </div>
+    </section>
+
+    <!--- Contact me -->
+    <section class="contact-me scrollspy" id="contact">
+        <div class="container">
+            <div class="data-wrapper__contact-me">
+                <h2 class="title__contact-me text-uppercase">contact me</h2>
+                <div class="title--underline title--underline-secondary"><i class="fas fa-star"></i></div>
+                <form action="#" class="form__contact-me">
+                    <input type="text" name="name" class="name-box" placeholder="Name">
+                    <input type="email" name="email" class="email-box" placeholder="Email Address">
+                    <input type="tel" name="phone-number" class="phone-number-box" placeholder="Phone Number">
+                    <textarea name="message" class="message-box" id="" cols="30" rows="10"
+                        placeholder="Message"></textarea>
+                    <button class="btn btn-primary">Send <i class="fas fa-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="data-wrapper__footer">
+                <div class="location">
+                    <h4 class="text-uppercase title__location">location</h4>
+                    <p class="text__location">Nangarhar, Afghanistan</p>
+                </div>
+                <div class="social-media">
+                    <h4 class="text-uppercase title__social-media-links">Around the Web</h4>
+                    <ul class="social-media-items">
+                        <li class="social-media-item">
+                            <a href="#" class="social-media-link"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="social-media-item">
+                            <a href="#" class="social-media-link"><i class="fab fa-google-plus-g"></i></a>
+                        </li>
+                        <li class="social-media-item">
+                            <a href="#" class="social-media-link"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="social-media-item">
+                            <a href="#" class="social-media-link"><i class="fab fa-dribbble"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about--footer">
+                    <h4 class="text-uppercase title__about--footer">About Me</h4>
+                    <p class="text__about--footer">
+                        Hi! I am Inayat Ullah Shinwari, a passionate
+                        full-stack web developer and freelancer.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <p class="text__copyright">
+            Copyright &copy; Inayat Ullah Shinwari 2020
+        </p>
+    </div>
+
+    <!-- Loader -->
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+
+
+
+
+    <!--- Js File -->
+    <script src="assets/js/script.js"></script>
+    <!--- jQuery File -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <!--- ScrollSpy JS File -->
+    <script src="assets/js/simple-scrollspy-master/dist/simple-scrollspy.min.js"></script>
+    <script>
+        window.onload = function () {
+            $(".loader-wrapper").fadeOut("slow");
+
+            scrollSpy('#main-menu', {
+                sectionClass: '.scrollspy',
+                menuActiveTarget: '.menu-item',
+                offset: 100
+            })
+        }
+    </script>
+
+</body>
+
+</html>
